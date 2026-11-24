@@ -1,0 +1,3364 @@
+{
+  "version": "1.2.0",
+  "scoring": "Curated game points; not measured answer rarity.",
+  "questions": [
+    {
+      "id": "countries-a",
+      "category": "Geography",
+      "text": "Name a UN member country whose usual English name starts with A.",
+      "answers": [
+        {
+          "text": "Australia",
+          "points": 10
+        },
+        {
+          "text": "Argentina",
+          "points": 10
+        },
+        {
+          "text": "Austria",
+          "points": 10
+        },
+        {
+          "text": "Afghanistan",
+          "points": 30
+        },
+        {
+          "text": "Algeria",
+          "points": 30
+        },
+        {
+          "text": "Angola",
+          "points": 30
+        },
+        {
+          "text": "Albania",
+          "points": 60
+        },
+        {
+          "text": "Armenia",
+          "points": 60
+        },
+        {
+          "text": "Andorra",
+          "points": 85
+        },
+        {
+          "text": "Azerbaijan",
+          "points": 85
+        },
+        {
+          "text": "Antigua and Barbuda",
+          "points": 100
+        }
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "countries-s",
+      "category": "Geography",
+      "text": "Name a UN member country whose usual English name starts with S.",
+      "answers": [
+        {
+          "text": "Spain",
+          "points": 10
+        },
+        {
+          "text": "Sweden",
+          "points": 10
+        },
+        {
+          "text": "Switzerland",
+          "points": 10
+        },
+        {
+          "text": "South Africa",
+          "points": 15
+        },
+        {
+          "text": "Saudi Arabia",
+          "points": 15
+        },
+        {
+          "text": "Singapore",
+          "points": 15
+        },
+        {
+          "text": "Slovakia",
+          "points": 30
+        },
+        {
+          "text": "Slovenia",
+          "points": 30
+        },
+        {
+          "text": "Serbia",
+          "points": 30
+        },
+        {
+          "text": "Syria",
+          "points": 30
+        },
+        {
+          "text": "Sudan",
+          "points": 60
+        },
+        {
+          "text": "South Sudan",
+          "points": 60
+        },
+        {
+          "text": "Sri Lanka",
+          "points": 60
+        },
+        {
+          "text": "Senegal",
+          "points": 60
+        },
+        {
+          "text": "Somalia",
+          "points": 60
+        },
+        {
+          "text": "Samoa",
+          "points": 85
+        },
+        {
+          "text": "San Marino",
+          "points": 85
+        },
+        {
+          "text": "Seychelles",
+          "points": 85
+        },
+        {
+          "text": "Sierra Leone",
+          "points": 85
+        },
+        {
+          "text": "Solomon Islands",
+          "points": 85
+        },
+        {
+          "text": "Suriname",
+          "points": 85
+        },
+        {
+          "text": "Saint Kitts and Nevis",
+          "points": 100
+        },
+        {
+          "text": "Saint Lucia",
+          "points": 100
+        },
+        {
+          "text": "Saint Vincent and the Grenadines",
+          "points": 100
+        },
+        {
+          "text": "Sao Tome and Principe",
+          "points": 100
+        }
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "planets",
+      "category": "Space",
+      "text": "Name one of the eight planets in our Solar System.",
+      "answers": [
+        {
+          "text": "Earth",
+          "points": 10
+        },
+        {
+          "text": "Mars",
+          "points": 10
+        },
+        {
+          "text": "Jupiter",
+          "points": 10
+        },
+        {
+          "text": "Venus",
+          "points": 30
+        },
+        {
+          "text": "Saturn",
+          "points": 30
+        },
+        {
+          "text": "Mercury",
+          "points": 60
+        },
+        {
+          "text": "Neptune",
+          "points": 60
+        },
+        {
+          "text": "Uranus",
+          "points": 100
+        }
+      ],
+      "difficulty": "general"
+    },
+    {
+      "id": "galilean",
+      "category": "Space",
+      "text": "Name one of the four Galilean moons of Jupiter.",
+      "answers": [
+        {
+          "text": "Europa",
+          "points": 10
+        },
+        {
+          "text": "Io",
+          "points": 30
+        },
+        {
+          "text": "Ganymede",
+          "points": 60
+        },
+        {
+          "text": "Callisto",
+          "points": 100
+        }
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "chess",
+      "category": "Games",
+      "text": "Name a type of chess piece.",
+      "answers": [
+        {
+          "text": "King",
+          "points": 10
+        },
+        {
+          "text": "Queen",
+          "points": 10
+        },
+        {
+          "text": "Pawn",
+          "points": 10
+        },
+        {
+          "text": "Knight",
+          "points": 30
+        },
+        {
+          "text": "Bishop",
+          "points": 60
+        },
+        {
+          "text": "Rook",
+          "points": 100,
+          "aliases": [
+            "Castle"
+          ]
+        }
+      ],
+      "difficulty": "general"
+    },
+    {
+      "id": "cluedo",
+      "category": "Games",
+      "text": "Name an original UK Cluedo suspect (the classic six).",
+      "answers": [
+        {
+          "text": "Miss Scarlett",
+          "points": 10,
+          "aliases": [
+            "Scarlett",
+            "Miss Scarlet",
+            "Scarlet"
+          ]
+        },
+        {
+          "text": "Colonel Mustard",
+          "points": 10,
+          "aliases": [
+            "Mustard"
+          ]
+        },
+        {
+          "text": "Professor Plum",
+          "points": 30,
+          "aliases": [
+            "Plum"
+          ]
+        },
+        {
+          "text": "Mrs Peacock",
+          "points": 30,
+          "aliases": [
+            "Peacock"
+          ]
+        },
+        {
+          "text": "Reverend Green",
+          "points": 60,
+          "aliases": [
+            "Green",
+            "Mr Green"
+          ]
+        },
+        {
+          "text": "Mrs White",
+          "points": 100,
+          "aliases": [
+            "White"
+          ]
+        }
+      ],
+      "difficulty": "general"
+    },
+    {
+      "id": "rainbow",
+      "category": "Colour",
+      "text": "Name one of the seven traditional colours of the rainbow.",
+      "answers": [
+        {
+          "text": "Red",
+          "points": 10
+        },
+        {
+          "text": "Blue",
+          "points": 10
+        },
+        {
+          "text": "Green",
+          "points": 10
+        },
+        {
+          "text": "Yellow",
+          "points": 30
+        },
+        {
+          "text": "Orange",
+          "points": 30
+        },
+        {
+          "text": "Violet",
+          "points": 60
+        },
+        {
+          "text": "Indigo",
+          "points": 100
+        }
+      ],
+      "difficulty": "general"
+    },
+    {
+      "id": "greek",
+      "category": "Language",
+      "text": "Name a letter of the Greek alphabet.",
+      "answers": [
+        {
+          "text": "Alpha",
+          "points": 10
+        },
+        {
+          "text": "Beta",
+          "points": 10
+        },
+        {
+          "text": "Gamma",
+          "points": 10
+        },
+        {
+          "text": "Delta",
+          "points": 10
+        },
+        {
+          "text": "Omega",
+          "points": 15
+        },
+        {
+          "text": "Pi",
+          "points": 15
+        },
+        {
+          "text": "Sigma",
+          "points": 15
+        },
+        {
+          "text": "Theta",
+          "points": 30
+        },
+        {
+          "text": "Lambda",
+          "points": 30
+        },
+        {
+          "text": "Epsilon",
+          "points": 30
+        },
+        {
+          "text": "Zeta",
+          "points": 30
+        },
+        {
+          "text": "Eta",
+          "points": 60
+        },
+        {
+          "text": "Iota",
+          "points": 60
+        },
+        {
+          "text": "Kappa",
+          "points": 60
+        },
+        {
+          "text": "Mu",
+          "points": 60
+        },
+        {
+          "text": "Nu",
+          "points": 60
+        },
+        {
+          "text": "Xi",
+          "points": 60
+        },
+        {
+          "text": "Omicron",
+          "points": 85
+        },
+        {
+          "text": "Rho",
+          "points": 85
+        },
+        {
+          "text": "Tau",
+          "points": 85
+        },
+        {
+          "text": "Phi",
+          "points": 85
+        },
+        {
+          "text": "Upsilon",
+          "points": 100
+        },
+        {
+          "text": "Chi",
+          "points": 100
+        },
+        {
+          "text": "Psi",
+          "points": 100
+        }
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "zodiac",
+      "category": "Symbols",
+      "text": "Name one of the twelve Western zodiac signs.",
+      "answers": [
+        {
+          "text": "Leo",
+          "points": 10
+        },
+        {
+          "text": "Aries",
+          "points": 10
+        },
+        {
+          "text": "Gemini",
+          "points": 10
+        },
+        {
+          "text": "Cancer",
+          "points": 30
+        },
+        {
+          "text": "Scorpio",
+          "points": 30
+        },
+        {
+          "text": "Taurus",
+          "points": 30
+        },
+        {
+          "text": "Virgo",
+          "points": 30
+        },
+        {
+          "text": "Libra",
+          "points": 60
+        },
+        {
+          "text": "Capricorn",
+          "points": 60
+        },
+        {
+          "text": "Pisces",
+          "points": 60
+        },
+        {
+          "text": "Aquarius",
+          "points": 100
+        },
+        {
+          "text": "Sagittarius",
+          "points": 100
+        }
+      ],
+      "difficulty": "general"
+    },
+    {
+      "id": "roman",
+      "category": "Numbers",
+      "text": "Name a single letter used as a standard Roman numeral.",
+      "answers": [
+        {
+          "text": "I",
+          "points": 10
+        },
+        {
+          "text": "V",
+          "points": 10
+        },
+        {
+          "text": "X",
+          "points": 10
+        },
+        {
+          "text": "L",
+          "points": 30
+        },
+        {
+          "text": "C",
+          "points": 60
+        },
+        {
+          "text": "M",
+          "points": 60
+        },
+        {
+          "text": "D",
+          "points": 100
+        }
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "si",
+      "category": "Science",
+      "text": "Name an SI base unit (not a derived unit).",
+      "answers": [
+        {
+          "text": "Metre",
+          "points": 10,
+          "aliases": [
+            "Meter"
+          ]
+        },
+        {
+          "text": "Kilogram",
+          "points": 10,
+          "aliases": [
+            "Kg"
+          ]
+        },
+        {
+          "text": "Second",
+          "points": 10,
+          "aliases": [
+            "S"
+          ]
+        },
+        {
+          "text": "Ampere",
+          "points": 30,
+          "aliases": [
+            "Amp"
+          ]
+        },
+        {
+          "text": "Kelvin",
+          "points": 60,
+          "aliases": [
+            "K"
+          ]
+        },
+        {
+          "text": "Mole",
+          "points": 60,
+          "aliases": [
+            "Mol"
+          ]
+        },
+        {
+          "text": "Candela",
+          "points": 100,
+          "aliases": [
+            "Cd"
+          ]
+        }
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "noble",
+      "category": "Science",
+      "text": "Name a group 18 element — the noble-gas column.",
+      "answers": [
+        {
+          "text": "Helium",
+          "points": 10,
+          "aliases": [
+            "He"
+          ]
+        },
+        {
+          "text": "Neon",
+          "points": 10,
+          "aliases": [
+            "Ne"
+          ]
+        },
+        {
+          "text": "Argon",
+          "points": 30,
+          "aliases": [
+            "Ar"
+          ]
+        },
+        {
+          "text": "Krypton",
+          "points": 60,
+          "aliases": [
+            "Kr"
+          ]
+        },
+        {
+          "text": "Xenon",
+          "points": 60,
+          "aliases": [
+            "Xe"
+          ]
+        },
+        {
+          "text": "Radon",
+          "points": 85,
+          "aliases": [
+            "Rn"
+          ]
+        },
+        {
+          "text": "Oganesson",
+          "points": 100,
+          "aliases": [
+            "Og"
+          ]
+        }
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "halogens",
+      "category": "Science",
+      "text": "Name a group 17 element — the halogen column.",
+      "answers": [
+        {
+          "text": "Chlorine",
+          "points": 10,
+          "aliases": [
+            "Cl"
+          ]
+        },
+        {
+          "text": "Fluorine",
+          "points": 10,
+          "aliases": [
+            "F"
+          ]
+        },
+        {
+          "text": "Iodine",
+          "points": 30,
+          "aliases": [
+            "I"
+          ]
+        },
+        {
+          "text": "Bromine",
+          "points": 60,
+          "aliases": [
+            "Br"
+          ]
+        },
+        {
+          "text": "Astatine",
+          "points": 85,
+          "aliases": [
+            "At"
+          ]
+        },
+        {
+          "text": "Tennessine",
+          "points": 100,
+          "aliases": [
+            "Ts"
+          ]
+        }
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "first-ten",
+      "category": "Science",
+      "text": "Name an element with an atomic number from 1 to 10.",
+      "answers": [
+        {
+          "text": "Hydrogen",
+          "points": 10,
+          "aliases": [
+            "H"
+          ]
+        },
+        {
+          "text": "Helium",
+          "points": 10,
+          "aliases": [
+            "He"
+          ]
+        },
+        {
+          "text": "Oxygen",
+          "points": 10,
+          "aliases": [
+            "O"
+          ]
+        },
+        {
+          "text": "Carbon",
+          "points": 10,
+          "aliases": [
+            "C"
+          ]
+        },
+        {
+          "text": "Nitrogen",
+          "points": 30,
+          "aliases": [
+            "N"
+          ]
+        },
+        {
+          "text": "Neon",
+          "points": 30,
+          "aliases": [
+            "Ne"
+          ]
+        },
+        {
+          "text": "Lithium",
+          "points": 60,
+          "aliases": [
+            "Li"
+          ]
+        },
+        {
+          "text": "Boron",
+          "points": 60,
+          "aliases": [
+            "B"
+          ]
+        },
+        {
+          "text": "Beryllium",
+          "points": 100,
+          "aliases": [
+            "Be"
+          ]
+        },
+        {
+          "text": "Fluorine",
+          "points": 100,
+          "aliases": [
+            "F"
+          ]
+        }
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "nato",
+      "category": "Language",
+      "text": "Name a word in the NATO spelling alphabet.",
+      "answers": [
+        {
+          "text": "Alpha",
+          "points": 10,
+          "aliases": [
+            "Alfa"
+          ]
+        },
+        {
+          "text": "Bravo",
+          "points": 10
+        },
+        {
+          "text": "Charlie",
+          "points": 10
+        },
+        {
+          "text": "Delta",
+          "points": 10
+        },
+        {
+          "text": "Echo",
+          "points": 15
+        },
+        {
+          "text": "Foxtrot",
+          "points": 15
+        },
+        {
+          "text": "Golf",
+          "points": 15
+        },
+        {
+          "text": "Hotel",
+          "points": 15
+        },
+        {
+          "text": "India",
+          "points": 30
+        },
+        {
+          "text": "Juliett",
+          "points": 30,
+          "aliases": [
+            "Juliet"
+          ]
+        },
+        {
+          "text": "Kilo",
+          "points": 30
+        },
+        {
+          "text": "Lima",
+          "points": 30
+        },
+        {
+          "text": "Mike",
+          "points": 30
+        },
+        {
+          "text": "November",
+          "points": 60
+        },
+        {
+          "text": "Oscar",
+          "points": 60
+        },
+        {
+          "text": "Papa",
+          "points": 60
+        },
+        {
+          "text": "Quebec",
+          "points": 60
+        },
+        {
+          "text": "Romeo",
+          "points": 60
+        },
+        {
+          "text": "Sierra",
+          "points": 85
+        },
+        {
+          "text": "Tango",
+          "points": 85
+        },
+        {
+          "text": "Uniform",
+          "points": 85
+        },
+        {
+          "text": "Victor",
+          "points": 85
+        },
+        {
+          "text": "Whiskey",
+          "points": 100,
+          "aliases": [
+            "Whisky"
+          ]
+        },
+        {
+          "text": "X-ray",
+          "points": 100
+        },
+        {
+          "text": "Yankee",
+          "points": 100
+        },
+        {
+          "text": "Zulu",
+          "points": 100
+        }
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "snow-white",
+      "category": "Film",
+      "text": "Name one of the seven dwarfs in Disney’s 1937 Snow White film.",
+      "answers": [
+        {
+          "text": "Dopey",
+          "points": 10
+        },
+        {
+          "text": "Grumpy",
+          "points": 10
+        },
+        {
+          "text": "Sleepy",
+          "points": 10
+        },
+        {
+          "text": "Happy",
+          "points": 30
+        },
+        {
+          "text": "Doc",
+          "points": 30
+        },
+        {
+          "text": "Sneezy",
+          "points": 60
+        },
+        {
+          "text": "Bashful",
+          "points": 100
+        }
+      ],
+      "difficulty": "general"
+    },
+    {
+      "id": "friends",
+      "category": "Television",
+      "text": "Name one of the six main friends in Friends. First names are enough.",
+      "answers": [
+        {
+          "text": "Rachel",
+          "points": 10,
+          "aliases": [
+            "Rachel Green"
+          ]
+        },
+        {
+          "text": "Ross",
+          "points": 10,
+          "aliases": [
+            "Ross Geller"
+          ]
+        },
+        {
+          "text": "Joey",
+          "points": 10,
+          "aliases": [
+            "Joey Tribbiani"
+          ]
+        },
+        {
+          "text": "Chandler",
+          "points": 30,
+          "aliases": [
+            "Chandler Bing"
+          ]
+        },
+        {
+          "text": "Monica",
+          "points": 30,
+          "aliases": [
+            "Monica Geller"
+          ]
+        },
+        {
+          "text": "Phoebe",
+          "points": 100,
+          "aliases": [
+            "Phoebe Buffay"
+          ]
+        }
+      ],
+      "difficulty": "general"
+    },
+    {
+      "id": "turtles",
+      "category": "Television",
+      "text": "Name one of the four Teenage Mutant Ninja Turtles.",
+      "answers": [
+        {
+          "text": "Leonardo",
+          "points": 10,
+          "aliases": [
+            "Leo"
+          ]
+        },
+        {
+          "text": "Raphael",
+          "points": 10,
+          "aliases": [
+            "Raph"
+          ]
+        },
+        {
+          "text": "Michelangelo",
+          "points": 60,
+          "aliases": [
+            "Mikey"
+          ]
+        },
+        {
+          "text": "Donatello",
+          "points": 100,
+          "aliases": [
+            "Donnie",
+            "Donny"
+          ]
+        }
+      ],
+      "difficulty": "general"
+    },
+    {
+      "id": "hobbits",
+      "category": "Books & film",
+      "text": "Name one of the four hobbits in the Fellowship of the Ring.",
+      "answers": [
+        {
+          "text": "Frodo",
+          "points": 10,
+          "aliases": [
+            "Frodo Baggins"
+          ]
+        },
+        {
+          "text": "Sam",
+          "points": 10,
+          "aliases": [
+            "Samwise",
+            "Samwise Gamgee",
+            "Sam Gamgee"
+          ]
+        },
+        {
+          "text": "Pippin",
+          "points": 60,
+          "aliases": [
+            "Peregrin Took",
+            "Pippin Took"
+          ]
+        },
+        {
+          "text": "Merry",
+          "points": 100,
+          "aliases": [
+            "Meriadoc Brandybuck",
+            "Merry Brandybuck"
+          ]
+        }
+      ],
+      "difficulty": "general"
+    },
+    {
+      "id": "continents",
+      "category": "Geography",
+      "text": "Name a continent in the seven-continent model.",
+      "answers": [
+        {
+          "text": "Europe",
+          "points": 10
+        },
+        {
+          "text": "Asia",
+          "points": 10
+        },
+        {
+          "text": "Africa",
+          "points": 10
+        },
+        {
+          "text": "North America",
+          "points": 30
+        },
+        {
+          "text": "South America",
+          "points": 30
+        },
+        {
+          "text": "Australia",
+          "points": 60
+        },
+        {
+          "text": "Antarctica",
+          "points": 100
+        }
+      ],
+      "difficulty": "general"
+    },
+    {
+      "id": "oceans",
+      "category": "Geography",
+      "text": "Name one of Earth’s five oceans.",
+      "answers": [
+        {
+          "text": "Atlantic",
+          "points": 10,
+          "aliases": [
+            "Atlantic Ocean"
+          ]
+        },
+        {
+          "text": "Pacific",
+          "points": 10,
+          "aliases": [
+            "Pacific Ocean"
+          ]
+        },
+        {
+          "text": "Indian",
+          "points": 30,
+          "aliases": [
+            "Indian Ocean"
+          ]
+        },
+        {
+          "text": "Arctic",
+          "points": 60,
+          "aliases": [
+            "Arctic Ocean"
+          ]
+        },
+        {
+          "text": "Southern",
+          "points": 100,
+          "aliases": [
+            "Southern Ocean"
+          ]
+        }
+      ],
+      "difficulty": "general"
+    },
+    {
+      "id": "great-lakes",
+      "category": "Geography",
+      "text": "Name one of North America’s five Great Lakes.",
+      "answers": [
+        {
+          "text": "Superior",
+          "points": 10,
+          "aliases": [
+            "Lake Superior"
+          ]
+        },
+        {
+          "text": "Michigan",
+          "points": 10,
+          "aliases": [
+            "Lake Michigan"
+          ]
+        },
+        {
+          "text": "Ontario",
+          "points": 30,
+          "aliases": [
+            "Lake Ontario"
+          ]
+        },
+        {
+          "text": "Erie",
+          "points": 60,
+          "aliases": [
+            "Lake Erie"
+          ]
+        },
+        {
+          "text": "Huron",
+          "points": 100,
+          "aliases": [
+            "Lake Huron"
+          ]
+        }
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "henry",
+      "category": "History",
+      "text": "Name one of Henry VIII’s six wives.",
+      "answers": [
+        {
+          "text": "Anne Boleyn",
+          "points": 10
+        },
+        {
+          "text": "Catherine of Aragon",
+          "points": 10,
+          "aliases": [
+            "Katherine of Aragon"
+          ]
+        },
+        {
+          "text": "Jane Seymour",
+          "points": 30
+        },
+        {
+          "text": "Anne of Cleves",
+          "points": 60
+        },
+        {
+          "text": "Catherine Howard",
+          "points": 85,
+          "aliases": [
+            "Katherine Howard"
+          ]
+        },
+        {
+          "text": "Catherine Parr",
+          "points": 100,
+          "aliases": [
+            "Katherine Parr"
+          ]
+        }
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "wonders",
+      "category": "History",
+      "text": "Name one of the Seven Wonders of the Ancient World.",
+      "answers": [
+        {
+          "text": "Great Pyramid of Giza",
+          "points": 10,
+          "aliases": [
+            "Great Pyramid",
+            "Pyramid of Giza",
+            "Pyramids of Giza"
+          ]
+        },
+        {
+          "text": "Hanging Gardens of Babylon",
+          "points": 10,
+          "aliases": [
+            "Hanging Gardens"
+          ]
+        },
+        {
+          "text": "Colossus of Rhodes",
+          "points": 30,
+          "aliases": [
+            "Colossus"
+          ]
+        },
+        {
+          "text": "Lighthouse of Alexandria",
+          "points": 60,
+          "aliases": [
+            "Pharos of Alexandria"
+          ]
+        },
+        {
+          "text": "Statue of Zeus at Olympia",
+          "points": 60,
+          "aliases": [
+            "Statue of Zeus"
+          ]
+        },
+        {
+          "text": "Temple of Artemis at Ephesus",
+          "points": 85,
+          "aliases": [
+            "Temple of Artemis"
+          ]
+        },
+        {
+          "text": "Mausoleum at Halicarnassus",
+          "points": 100,
+          "aliases": [
+            "Mausoleum of Halicarnassus"
+          ]
+        }
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "pasta",
+      "category": "Food",
+      "text": "Name a pasta shape or type from our curated food bank.",
+      "answers": [
+        {
+          "text": "Spaghetti",
+          "points": 10
+        },
+        {
+          "text": "Penne",
+          "points": 10
+        },
+        {
+          "text": "Macaroni",
+          "points": 10
+        },
+        {
+          "text": "Lasagne",
+          "points": 10,
+          "aliases": [
+            "Lasagna"
+          ]
+        },
+        {
+          "text": "Fusilli",
+          "points": 15
+        },
+        {
+          "text": "Farfalle",
+          "points": 15
+        },
+        {
+          "text": "Tagliatelle",
+          "points": 15
+        },
+        {
+          "text": "Linguine",
+          "points": 30
+        },
+        {
+          "text": "Ravioli",
+          "points": 30
+        },
+        {
+          "text": "Tortellini",
+          "points": 30
+        },
+        {
+          "text": "Rigatoni",
+          "points": 30
+        },
+        {
+          "text": "Orecchiette",
+          "points": 60
+        },
+        {
+          "text": "Cavatelli",
+          "points": 60
+        },
+        {
+          "text": "Cannelloni",
+          "points": 60
+        },
+        {
+          "text": "Orzo",
+          "points": 60
+        },
+        {
+          "text": "Strozzapreti",
+          "points": 85
+        },
+        {
+          "text": "Pappardelle",
+          "points": 85
+        },
+        {
+          "text": "Bucatini",
+          "points": 85
+        },
+        {
+          "text": "Conchiglie",
+          "points": 85
+        },
+        {
+          "text": "Fregola",
+          "points": 100,
+          "aliases": [
+            "Fregula"
+          ]
+        },
+        {
+          "text": "Ditalini",
+          "points": 100
+        },
+        {
+          "text": "Mafaldine",
+          "points": 100
+        },
+        {
+          "text": "Gemelli",
+          "points": 100
+        },
+        {
+          "text": "Trofie",
+          "points": 100
+        }
+      ],
+      "note": "This is a curated list, not every pasta type.",
+      "difficulty": "general"
+    },
+    {
+      "id": "polygons",
+      "category": "Numbers",
+      "text": "Name a polygon with 3 to 12 sides using its usual English name.",
+      "answers": [
+        {
+          "text": "Triangle",
+          "points": 10
+        },
+        {
+          "text": "Square",
+          "points": 10
+        },
+        {
+          "text": "Pentagon",
+          "points": 10
+        },
+        {
+          "text": "Hexagon",
+          "points": 10
+        },
+        {
+          "text": "Quadrilateral",
+          "points": 30
+        },
+        {
+          "text": "Octagon",
+          "points": 30
+        },
+        {
+          "text": "Heptagon",
+          "points": 60,
+          "aliases": [
+            "Septagon"
+          ]
+        },
+        {
+          "text": "Nonagon",
+          "points": 60,
+          "aliases": [
+            "Enneagon"
+          ]
+        },
+        {
+          "text": "Decagon",
+          "points": 60
+        },
+        {
+          "text": "Hendecagon",
+          "points": 85,
+          "aliases": [
+            "Undecagon"
+          ]
+        },
+        {
+          "text": "Dodecagon",
+          "points": 100
+        },
+        {
+          "text": "Rectangle",
+          "points": 30
+        },
+        {
+          "text": "Rhombus",
+          "points": 30
+        },
+        {
+          "text": "Parallelogram",
+          "points": 30
+        },
+        {
+          "text": "Trapezium",
+          "points": 30,
+          "aliases": [
+            "Trapezoid"
+          ]
+        },
+        {
+          "text": "Kite",
+          "points": 30
+        }
+      ],
+      "note": "Square is accepted as a four-sided polygon; other special quadrilaterals are also accepted.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "strings",
+      "category": "Music",
+      "text": "Name an open string on a standard six-string guitar. Give the note letter.",
+      "answers": [
+        {
+          "text": "E",
+          "points": 10
+        },
+        {
+          "text": "A",
+          "points": 10
+        },
+        {
+          "text": "D",
+          "points": 30
+        },
+        {
+          "text": "G",
+          "points": 60
+        },
+        {
+          "text": "B",
+          "points": 100
+        }
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "solfege",
+      "category": "Music",
+      "text": "Name a note syllable in the seven-note do-re-mi scale.",
+      "answers": [
+        {
+          "text": "Do",
+          "points": 10,
+          "aliases": [
+            "Doh"
+          ]
+        },
+        {
+          "text": "Re",
+          "points": 10
+        },
+        {
+          "text": "Mi",
+          "points": 10
+        },
+        {
+          "text": "Fa",
+          "points": 30
+        },
+        {
+          "text": "Sol",
+          "points": 30,
+          "aliases": [
+            "So"
+          ]
+        },
+        {
+          "text": "La",
+          "points": 60
+        },
+        {
+          "text": "Ti",
+          "points": 100,
+          "aliases": [
+            "Si"
+          ]
+        }
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "weekdays",
+      "difficulty": "easy",
+      "category": "Everyday life",
+      "text": "Name a day of the week.",
+      "answers": [
+        {
+          "text": "Monday",
+          "points": 10,
+          "aliases": [
+            "Mon"
+          ]
+        },
+        {
+          "text": "Friday",
+          "points": 10,
+          "aliases": [
+            "Fri"
+          ]
+        },
+        {
+          "text": "Saturday",
+          "points": 10,
+          "aliases": [
+            "Sat"
+          ]
+        },
+        {
+          "text": "Sunday",
+          "points": 10,
+          "aliases": [
+            "Sun"
+          ]
+        },
+        {
+          "text": "Tuesday",
+          "points": 60,
+          "aliases": [
+            "Tue",
+            "Tues"
+          ]
+        },
+        {
+          "text": "Wednesday",
+          "points": 60,
+          "aliases": [
+            "Wed"
+          ]
+        },
+        {
+          "text": "Thursday",
+          "points": 100,
+          "aliases": [
+            "Thu",
+            "Thurs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "months",
+      "difficulty": "easy",
+      "category": "Everyday life",
+      "text": "Name a month of the year.",
+      "answers": [
+        {
+          "text": "January",
+          "points": 10
+        },
+        {
+          "text": "December",
+          "points": 10
+        },
+        {
+          "text": "July",
+          "points": 10
+        },
+        {
+          "text": "August",
+          "points": 10
+        },
+        {
+          "text": "June",
+          "points": 30
+        },
+        {
+          "text": "May",
+          "points": 30
+        },
+        {
+          "text": "April",
+          "points": 30
+        },
+        {
+          "text": "February",
+          "points": 60
+        },
+        {
+          "text": "March",
+          "points": 60
+        },
+        {
+          "text": "October",
+          "points": 60
+        },
+        {
+          "text": "September",
+          "points": 100
+        },
+        {
+          "text": "November",
+          "points": 100
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "difficulty": "easy",
+      "category": "Nature",
+      "text": "Name one of the four seasons.",
+      "answers": [
+        {
+          "text": "Summer",
+          "points": 10
+        },
+        {
+          "text": "Winter",
+          "points": 10
+        },
+        {
+          "text": "Spring",
+          "points": 60
+        },
+        {
+          "text": "Autumn",
+          "points": 100,
+          "aliases": [
+            "Fall"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "senses",
+      "difficulty": "easy",
+      "category": "Everyday life",
+      "text": "Name one of the five traditional senses.",
+      "answers": [
+        {
+          "text": "Sight",
+          "points": 10,
+          "aliases": [
+            "Vision",
+            "Seeing"
+          ]
+        },
+        {
+          "text": "Hearing",
+          "points": 10,
+          "aliases": [
+            "Sound"
+          ]
+        },
+        {
+          "text": "Taste",
+          "points": 30,
+          "aliases": [
+            "Tasting"
+          ]
+        },
+        {
+          "text": "Smell",
+          "points": 60,
+          "aliases": [
+            "Smelling"
+          ]
+        },
+        {
+          "text": "Touch",
+          "points": 100,
+          "aliases": [
+            "Feeling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "traffic-lights",
+      "difficulty": "easy",
+      "category": "Everyday life",
+      "text": "Name a colour used in standard UK traffic lights.",
+      "answers": [
+        {
+          "text": "Red",
+          "points": 10
+        },
+        {
+          "text": "Green",
+          "points": 10
+        },
+        {
+          "text": "Amber",
+          "points": 100,
+          "aliases": [
+            "Yellow"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card-suits",
+      "difficulty": "easy",
+      "category": "Games",
+      "text": "Name a suit in a standard pack of playing cards.",
+      "answers": [
+        {
+          "text": "Hearts",
+          "points": 10,
+          "aliases": [
+            "Heart"
+          ]
+        },
+        {
+          "text": "Spades",
+          "points": 10,
+          "aliases": [
+            "Spade"
+          ]
+        },
+        {
+          "text": "Diamonds",
+          "points": 60,
+          "aliases": [
+            "Diamond"
+          ]
+        },
+        {
+          "text": "Clubs",
+          "points": 100,
+          "aliases": [
+            "Club"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "face-cards",
+      "difficulty": "easy",
+      "category": "Games",
+      "text": "Name a type of face card in a standard pack (not a joker).",
+      "answers": [
+        {
+          "text": "King",
+          "points": 10
+        },
+        {
+          "text": "Queen",
+          "points": 10
+        },
+        {
+          "text": "Jack",
+          "points": 100,
+          "aliases": [
+            "Knave"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "directions",
+      "difficulty": "easy",
+      "category": "Everyday life",
+      "text": "Name one of the four main compass directions.",
+      "answers": [
+        {
+          "text": "North",
+          "points": 10
+        },
+        {
+          "text": "South",
+          "points": 10
+        },
+        {
+          "text": "East",
+          "points": 60
+        },
+        {
+          "text": "West",
+          "points": 100
+        }
+      ]
+    },
+    {
+      "id": "uk-nations",
+      "difficulty": "easy",
+      "category": "Geography",
+      "text": "Name one of the four countries of the United Kingdom.",
+      "answers": [
+        {
+          "text": "England",
+          "points": 10
+        },
+        {
+          "text": "Scotland",
+          "points": 10
+        },
+        {
+          "text": "Wales",
+          "points": 60
+        },
+        {
+          "text": "Northern Ireland",
+          "points": 100,
+          "aliases": [
+            "NI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "red-fruit",
+      "difficulty": "easy",
+      "category": "Food",
+      "text": "Name a fruit commonly eaten red, from our everyday fruit list.",
+      "answers": [
+        {
+          "text": "Apple",
+          "points": 10,
+          "aliases": [
+            "Apples"
+          ]
+        },
+        {
+          "text": "Strawberry",
+          "points": 10,
+          "aliases": [
+            "Strawberries"
+          ]
+        },
+        {
+          "text": "Cherry",
+          "points": 10,
+          "aliases": [
+            "Cherries"
+          ]
+        },
+        {
+          "text": "Raspberry",
+          "points": 30,
+          "aliases": [
+            "Raspberries"
+          ]
+        },
+        {
+          "text": "Tomato",
+          "points": 30,
+          "aliases": [
+            "Tomatoes"
+          ]
+        },
+        {
+          "text": "Redcurrant",
+          "points": 60,
+          "aliases": [
+            "Redcurrants"
+          ]
+        },
+        {
+          "text": "Watermelon",
+          "points": 60
+        },
+        {
+          "text": "Grape",
+          "points": 60,
+          "aliases": [
+            "Grapes",
+            "Red grapes"
+          ]
+        },
+        {
+          "text": "Pomegranate",
+          "points": 100
+        },
+        {
+          "text": "Cranberry",
+          "points": 100,
+          "aliases": [
+            "Cranberries"
+          ]
+        },
+        {
+          "text": "Blood orange",
+          "points": 100
+        }
+      ],
+      "note": "Curated everyday answer list; other valid answers may not yet be included."
+    },
+    {
+      "id": "farm-animals",
+      "difficulty": "easy",
+      "category": "Nature",
+      "text": "Name a farm animal from our everyday animal list.",
+      "answers": [
+        {
+          "text": "Cow",
+          "points": 10,
+          "aliases": [
+            "Cattle",
+            "Bull"
+          ]
+        },
+        {
+          "text": "Sheep",
+          "points": 10,
+          "aliases": [
+            "Lamb"
+          ]
+        },
+        {
+          "text": "Pig",
+          "points": 10,
+          "aliases": [
+            "Pigs"
+          ]
+        },
+        {
+          "text": "Chicken",
+          "points": 10,
+          "aliases": [
+            "Hen",
+            "Rooster"
+          ]
+        },
+        {
+          "text": "Horse",
+          "points": 30
+        },
+        {
+          "text": "Duck",
+          "points": 30
+        },
+        {
+          "text": "Goat",
+          "points": 30
+        },
+        {
+          "text": "Goose",
+          "points": 60,
+          "aliases": [
+            "Geese"
+          ]
+        },
+        {
+          "text": "Donkey",
+          "points": 60
+        },
+        {
+          "text": "Turkey",
+          "points": 60
+        },
+        {
+          "text": "Alpaca",
+          "points": 100
+        },
+        {
+          "text": "Llama",
+          "points": 100
+        }
+      ],
+      "note": "Curated everyday answer list; other valid answers may not yet be included."
+    },
+    {
+      "id": "pets",
+      "difficulty": "easy",
+      "category": "Nature",
+      "text": "Name a pet animal from our everyday pet list.",
+      "answers": [
+        {
+          "text": "Cat",
+          "points": 10,
+          "aliases": [
+            "Cats"
+          ]
+        },
+        {
+          "text": "Dog",
+          "points": 10,
+          "aliases": [
+            "Dogs"
+          ]
+        },
+        {
+          "text": "Rabbit",
+          "points": 10,
+          "aliases": [
+            "Rabbits"
+          ]
+        },
+        {
+          "text": "Goldfish",
+          "points": 10
+        },
+        {
+          "text": "Hamster",
+          "points": 30
+        },
+        {
+          "text": "Guinea pig",
+          "points": 30,
+          "aliases": [
+            "Guinea pigs"
+          ]
+        },
+        {
+          "text": "Budgie",
+          "points": 30,
+          "aliases": [
+            "Budgerigar"
+          ]
+        },
+        {
+          "text": "Parrot",
+          "points": 60
+        },
+        {
+          "text": "Gerbil",
+          "points": 60
+        },
+        {
+          "text": "Mouse",
+          "points": 60,
+          "aliases": [
+            "Mice"
+          ]
+        },
+        {
+          "text": "Rat",
+          "points": 100
+        },
+        {
+          "text": "Ferret",
+          "points": 100
+        },
+        {
+          "text": "Chinchilla",
+          "points": 100
+        },
+        {
+          "text": "Tortoise",
+          "points": 100
+        },
+        {
+          "text": "Gecko",
+          "points": 100
+        },
+        {
+          "text": "Snake",
+          "points": 100
+        }
+      ],
+      "note": "Curated everyday answer list; other valid answers may not yet be included."
+    },
+    {
+      "id": "cutlery",
+      "difficulty": "easy",
+      "category": "Food",
+      "text": "Name one of the three usual main types of table cutlery.",
+      "answers": [
+        {
+          "text": "Knife",
+          "points": 10,
+          "aliases": [
+            "Knives"
+          ]
+        },
+        {
+          "text": "Fork",
+          "points": 10,
+          "aliases": [
+            "Forks"
+          ]
+        },
+        {
+          "text": "Spoon",
+          "points": 100,
+          "aliases": [
+            "Spoons"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coin-values",
+      "difficulty": "easy",
+      "category": "Everyday life",
+      "text": "Name a standard UK coin denomination, from 1p to £2.",
+      "answers": [
+        {
+          "text": "1p",
+          "points": 10,
+          "aliases": [
+            "One penny",
+            "Penny"
+          ]
+        },
+        {
+          "text": "2p",
+          "points": 10,
+          "aliases": [
+            "Two pence",
+            "Tuppence"
+          ]
+        },
+        {
+          "text": "£1",
+          "points": 10,
+          "aliases": [
+            "One pound",
+            "1 pound"
+          ]
+        },
+        {
+          "text": "£2",
+          "points": 10,
+          "aliases": [
+            "Two pounds",
+            "2 pounds"
+          ]
+        },
+        {
+          "text": "5p",
+          "points": 30,
+          "aliases": [
+            "Five pence"
+          ]
+        },
+        {
+          "text": "10p",
+          "points": 30,
+          "aliases": [
+            "Ten pence"
+          ]
+        },
+        {
+          "text": "20p",
+          "points": 60,
+          "aliases": [
+            "Twenty pence"
+          ]
+        },
+        {
+          "text": "50p",
+          "points": 100,
+          "aliases": [
+            "Fifty pence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beatles",
+      "difficulty": "general",
+      "category": "Music",
+      "text": "Name a member of the Beatles’ famous four-person line-up.",
+      "answers": [
+        {
+          "text": "John Lennon",
+          "points": 10,
+          "aliases": [
+            "John"
+          ]
+        },
+        {
+          "text": "Paul McCartney",
+          "points": 10,
+          "aliases": [
+            "Paul"
+          ]
+        },
+        {
+          "text": "Ringo Starr",
+          "points": 60,
+          "aliases": [
+            "Ringo"
+          ]
+        },
+        {
+          "text": "George Harrison",
+          "points": 100,
+          "aliases": [
+            "George"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "abba",
+      "difficulty": "general",
+      "category": "Music",
+      "text": "Name a member of ABBA. First names are enough.",
+      "answers": [
+        {
+          "text": "Agnetha",
+          "points": 10,
+          "aliases": [
+            "Agnetha Faltskog"
+          ]
+        },
+        {
+          "text": "Bjorn",
+          "points": 10,
+          "aliases": [
+            "Bjorn Ulvaeus"
+          ]
+        },
+        {
+          "text": "Benny",
+          "points": 60,
+          "aliases": [
+            "Benny Andersson"
+          ]
+        },
+        {
+          "text": "Anni-Frid",
+          "points": 100,
+          "aliases": [
+            "Frida",
+            "Anni Frid Lyngstad",
+            "Frida Lyngstad"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spice-girls",
+      "difficulty": "general",
+      "category": "Music",
+      "text": "Name a Spice Girl using her Spice nickname.",
+      "answers": [
+        {
+          "text": "Posh Spice",
+          "points": 10,
+          "aliases": [
+            "Posh"
+          ]
+        },
+        {
+          "text": "Scary Spice",
+          "points": 10,
+          "aliases": [
+            "Scary"
+          ]
+        },
+        {
+          "text": "Baby Spice",
+          "points": 30,
+          "aliases": [
+            "Baby"
+          ]
+        },
+        {
+          "text": "Sporty Spice",
+          "points": 60,
+          "aliases": [
+            "Sporty"
+          ]
+        },
+        {
+          "text": "Ginger Spice",
+          "points": 100,
+          "aliases": [
+            "Ginger"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "simpsons",
+      "difficulty": "general",
+      "category": "Television",
+      "text": "Name one of the five main Simpson family members. First names are enough.",
+      "answers": [
+        {
+          "text": "Homer",
+          "points": 10,
+          "aliases": [
+            "Homer Simpson"
+          ]
+        },
+        {
+          "text": "Bart",
+          "points": 10,
+          "aliases": [
+            "Bart Simpson"
+          ]
+        },
+        {
+          "text": "Marge",
+          "points": 30,
+          "aliases": [
+            "Marge Simpson"
+          ]
+        },
+        {
+          "text": "Lisa",
+          "points": 60,
+          "aliases": [
+            "Lisa Simpson"
+          ]
+        },
+        {
+          "text": "Maggie",
+          "points": 100,
+          "aliases": [
+            "Maggie Simpson"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scooby",
+      "difficulty": "general",
+      "category": "Television",
+      "text": "Name one of the five original Mystery Inc. gang members in Scooby-Doo.",
+      "answers": [
+        {
+          "text": "Scooby-Doo",
+          "points": 10,
+          "aliases": [
+            "Scooby"
+          ]
+        },
+        {
+          "text": "Shaggy",
+          "points": 10,
+          "aliases": [
+            "Shaggy Rogers",
+            "Norville Rogers"
+          ]
+        },
+        {
+          "text": "Fred",
+          "points": 30,
+          "aliases": [
+            "Fred Jones"
+          ]
+        },
+        {
+          "text": "Daphne",
+          "points": 60,
+          "aliases": [
+            "Daphne Blake"
+          ]
+        },
+        {
+          "text": "Velma",
+          "points": 100,
+          "aliases": [
+            "Velma Dinkley"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toy-story",
+      "difficulty": "general",
+      "category": "Film",
+      "text": "Name a toy character from the first Toy Story film, from our character list.",
+      "answers": [
+        {
+          "text": "Woody",
+          "points": 10
+        },
+        {
+          "text": "Buzz Lightyear",
+          "points": 10,
+          "aliases": [
+            "Buzz"
+          ]
+        },
+        {
+          "text": "Rex",
+          "points": 30
+        },
+        {
+          "text": "Mr Potato Head",
+          "points": 30,
+          "aliases": [
+            "Potato Head"
+          ]
+        },
+        {
+          "text": "Slinky Dog",
+          "points": 60,
+          "aliases": [
+            "Slinky"
+          ]
+        },
+        {
+          "text": "Hamm",
+          "points": 60
+        },
+        {
+          "text": "Bo Peep",
+          "points": 60
+        },
+        {
+          "text": "Sarge",
+          "points": 85
+        },
+        {
+          "text": "RC",
+          "points": 85
+        },
+        {
+          "text": "Lenny",
+          "points": 100
+        },
+        {
+          "text": "Etch",
+          "points": 100,
+          "aliases": [
+            "Etch A Sketch"
+          ]
+        },
+        {
+          "text": "Rocky Gibraltar",
+          "points": 100
+        },
+        {
+          "text": "Alien",
+          "points": 100,
+          "aliases": [
+            "Aliens",
+            "Little green men"
+          ]
+        }
+      ],
+      "note": "Curated everyday answer list; other valid answers may not yet be included."
+    },
+    {
+      "id": "inside-out",
+      "difficulty": "general",
+      "category": "Film",
+      "text": "Name one of the five main emotions in the first Inside Out film.",
+      "answers": [
+        {
+          "text": "Joy",
+          "points": 10
+        },
+        {
+          "text": "Sadness",
+          "points": 10
+        },
+        {
+          "text": "Anger",
+          "points": 30
+        },
+        {
+          "text": "Fear",
+          "points": 60
+        },
+        {
+          "text": "Disgust",
+          "points": 100
+        }
+      ]
+    },
+    {
+      "id": "tennis-slams",
+      "difficulty": "general",
+      "category": "Sport",
+      "text": "Name one of the four tennis Grand Slam tournaments.",
+      "answers": [
+        {
+          "text": "Wimbledon",
+          "points": 10
+        },
+        {
+          "text": "US Open",
+          "points": 30,
+          "aliases": [
+            "United States Open"
+          ]
+        },
+        {
+          "text": "Australian Open",
+          "points": 60
+        },
+        {
+          "text": "French Open",
+          "points": 100,
+          "aliases": [
+            "Roland Garros"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rugby-six",
+      "difficulty": "general",
+      "category": "Sport",
+      "text": "Name one of the six countries in the 2024 men’s Six Nations rugby championship.",
+      "answers": [
+        {
+          "text": "England",
+          "points": 10
+        },
+        {
+          "text": "Scotland",
+          "points": 10
+        },
+        {
+          "text": "Wales",
+          "points": 30
+        },
+        {
+          "text": "Ireland",
+          "points": 30
+        },
+        {
+          "text": "France",
+          "points": 60
+        },
+        {
+          "text": "Italy",
+          "points": 100
+        }
+      ]
+    },
+    {
+      "id": "football-positions",
+      "difficulty": "general",
+      "category": "Sport",
+      "text": "Name a broad football playing position from our position list.",
+      "answers": [
+        {
+          "text": "Goalkeeper",
+          "points": 10,
+          "aliases": [
+            "Keeper",
+            "Goalie"
+          ]
+        },
+        {
+          "text": "Striker",
+          "points": 10,
+          "aliases": [
+            "Forward",
+            "Centre forward"
+          ]
+        },
+        {
+          "text": "Defender",
+          "points": 30
+        },
+        {
+          "text": "Midfielder",
+          "points": 30
+        },
+        {
+          "text": "Winger",
+          "points": 60,
+          "aliases": [
+            "Left winger",
+            "Right winger"
+          ]
+        },
+        {
+          "text": "Centre back",
+          "points": 60,
+          "aliases": [
+            "Center back"
+          ]
+        },
+        {
+          "text": "Full back",
+          "points": 60,
+          "aliases": [
+            "Left back",
+            "Right back"
+          ]
+        },
+        {
+          "text": "Sweeper",
+          "points": 100
+        },
+        {
+          "text": "Wing back",
+          "points": 100
+        },
+        {
+          "text": "Attacking midfielder",
+          "points": 100
+        },
+        {
+          "text": "Defensive midfielder",
+          "points": 100
+        }
+      ],
+      "note": "Curated everyday answer list; other valid answers may not yet be included."
+    },
+    {
+      "id": "olympic-rings",
+      "difficulty": "general",
+      "category": "Sport",
+      "text": "Name a colour of one of the five Olympic rings.",
+      "answers": [
+        {
+          "text": "Blue",
+          "points": 10
+        },
+        {
+          "text": "Red",
+          "points": 10
+        },
+        {
+          "text": "Green",
+          "points": 30
+        },
+        {
+          "text": "Yellow",
+          "points": 60
+        },
+        {
+          "text": "Black",
+          "points": 100
+        }
+      ]
+    },
+    {
+      "id": "pizza",
+      "difficulty": "general",
+      "category": "Food",
+      "text": "Name a pizza topping from our common toppings list.",
+      "answers": [
+        {
+          "text": "Cheese",
+          "points": 10,
+          "aliases": [
+            "Mozzarella"
+          ]
+        },
+        {
+          "text": "Pepperoni",
+          "points": 10
+        },
+        {
+          "text": "Ham",
+          "points": 10
+        },
+        {
+          "text": "Mushroom",
+          "points": 10,
+          "aliases": [
+            "Mushrooms"
+          ]
+        },
+        {
+          "text": "Pineapple",
+          "points": 30
+        },
+        {
+          "text": "Chicken",
+          "points": 30
+        },
+        {
+          "text": "Onion",
+          "points": 30,
+          "aliases": [
+            "Onions"
+          ]
+        },
+        {
+          "text": "Olive",
+          "points": 60,
+          "aliases": [
+            "Olives"
+          ]
+        },
+        {
+          "text": "Pepper",
+          "points": 60,
+          "aliases": [
+            "Peppers",
+            "Bell pepper"
+          ]
+        },
+        {
+          "text": "Sweetcorn",
+          "points": 60
+        },
+        {
+          "text": "Tuna",
+          "points": 60
+        },
+        {
+          "text": "Anchovy",
+          "points": 100,
+          "aliases": [
+            "Anchovies"
+          ]
+        },
+        {
+          "text": "Jalapeno",
+          "points": 100,
+          "aliases": [
+            "Jalapenos"
+          ]
+        },
+        {
+          "text": "Artichoke",
+          "points": 100,
+          "aliases": [
+            "Artichokes"
+          ]
+        },
+        {
+          "text": "Capers",
+          "points": 100
+        },
+        {
+          "text": "Basil",
+          "points": 100
+        }
+      ],
+      "note": "Curated everyday answer list; other valid answers may not yet be included."
+    },
+    {
+      "id": "breakfast",
+      "difficulty": "general",
+      "category": "Food",
+      "text": "Name a cooked full-English-breakfast item from our common items list.",
+      "answers": [
+        {
+          "text": "Bacon",
+          "points": 10
+        },
+        {
+          "text": "Sausage",
+          "points": 10,
+          "aliases": [
+            "Sausages"
+          ]
+        },
+        {
+          "text": "Egg",
+          "points": 10,
+          "aliases": [
+            "Eggs",
+            "Fried egg",
+            "Scrambled eggs",
+            "Poached egg"
+          ]
+        },
+        {
+          "text": "Baked beans",
+          "points": 30,
+          "aliases": [
+            "Beans"
+          ]
+        },
+        {
+          "text": "Toast",
+          "points": 30
+        },
+        {
+          "text": "Mushroom",
+          "points": 60,
+          "aliases": [
+            "Mushrooms"
+          ]
+        },
+        {
+          "text": "Tomato",
+          "points": 60,
+          "aliases": [
+            "Tomatoes"
+          ]
+        },
+        {
+          "text": "Hash brown",
+          "points": 60,
+          "aliases": [
+            "Hash browns"
+          ]
+        },
+        {
+          "text": "Black pudding",
+          "points": 100
+        },
+        {
+          "text": "Fried bread",
+          "points": 100
+        }
+      ],
+      "note": "Curated everyday answer list; other valid answers may not yet be included."
+    },
+    {
+      "id": "bread",
+      "difficulty": "general",
+      "category": "Food",
+      "text": "Name a bread type from our everyday bread list.",
+      "answers": [
+        {
+          "text": "White bread",
+          "points": 10,
+          "aliases": [
+            "White"
+          ]
+        },
+        {
+          "text": "Wholemeal bread",
+          "points": 10,
+          "aliases": [
+            "Wholemeal",
+            "Whole wheat bread"
+          ]
+        },
+        {
+          "text": "Baguette",
+          "points": 10
+        },
+        {
+          "text": "Sourdough",
+          "points": 30
+        },
+        {
+          "text": "Bagel",
+          "points": 30
+        },
+        {
+          "text": "Pitta",
+          "points": 30,
+          "aliases": [
+            "Pita"
+          ]
+        },
+        {
+          "text": "Naan",
+          "points": 60
+        },
+        {
+          "text": "Ciabatta",
+          "points": 60
+        },
+        {
+          "text": "Rye bread",
+          "points": 60,
+          "aliases": [
+            "Rye"
+          ]
+        },
+        {
+          "text": "Focaccia",
+          "points": 60
+        },
+        {
+          "text": "Brioche",
+          "points": 100
+        },
+        {
+          "text": "Soda bread",
+          "points": 100
+        },
+        {
+          "text": "Chapati",
+          "points": 100,
+          "aliases": [
+            "Chapatti"
+          ]
+        },
+        {
+          "text": "Challah",
+          "points": 100
+        },
+        {
+          "text": "Pumpernickel",
+          "points": 100
+        }
+      ],
+      "note": "Curated everyday answer list; other valid answers may not yet be included."
+    },
+    {
+      "id": "nuts",
+      "difficulty": "general",
+      "category": "Food",
+      "text": "Name a nut commonly sold as a snack, from our food list (including peanuts).",
+      "answers": [
+        {
+          "text": "Peanut",
+          "points": 10,
+          "aliases": [
+            "Peanuts"
+          ]
+        },
+        {
+          "text": "Cashew",
+          "points": 10,
+          "aliases": [
+            "Cashews"
+          ]
+        },
+        {
+          "text": "Almond",
+          "points": 10,
+          "aliases": [
+            "Almonds"
+          ]
+        },
+        {
+          "text": "Walnut",
+          "points": 30,
+          "aliases": [
+            "Walnuts"
+          ]
+        },
+        {
+          "text": "Pistachio",
+          "points": 30,
+          "aliases": [
+            "Pistachios"
+          ]
+        },
+        {
+          "text": "Hazelnut",
+          "points": 60,
+          "aliases": [
+            "Hazelnuts"
+          ]
+        },
+        {
+          "text": "Brazil nut",
+          "points": 60,
+          "aliases": [
+            "Brazil nuts"
+          ]
+        },
+        {
+          "text": "Pecan",
+          "points": 100,
+          "aliases": [
+            "Pecans"
+          ]
+        },
+        {
+          "text": "Macadamia",
+          "points": 100,
+          "aliases": [
+            "Macadamias"
+          ]
+        },
+        {
+          "text": "Chestnut",
+          "points": 100,
+          "aliases": [
+            "Chestnuts"
+          ]
+        }
+      ],
+      "note": "Curated everyday answer list; other valid answers may not yet be included."
+    },
+    {
+      "id": "dog-breeds",
+      "difficulty": "general",
+      "category": "Nature",
+      "text": "Name a dog breed from our familiar breeds list.",
+      "answers": [
+        {
+          "text": "Labrador",
+          "points": 10,
+          "aliases": [
+            "Labrador retriever",
+            "Lab"
+          ]
+        },
+        {
+          "text": "Poodle",
+          "points": 10
+        },
+        {
+          "text": "German shepherd",
+          "points": 10,
+          "aliases": [
+            "Alsatian"
+          ]
+        },
+        {
+          "text": "Bulldog",
+          "points": 10
+        },
+        {
+          "text": "Beagle",
+          "points": 30
+        },
+        {
+          "text": "Boxer",
+          "points": 30
+        },
+        {
+          "text": "Dalmatian",
+          "points": 30
+        },
+        {
+          "text": "Pug",
+          "points": 30
+        },
+        {
+          "text": "Border collie",
+          "points": 60
+        },
+        {
+          "text": "Golden retriever",
+          "points": 60
+        },
+        {
+          "text": "Dachshund",
+          "points": 60,
+          "aliases": [
+            "Sausage dog"
+          ]
+        },
+        {
+          "text": "Rottweiler",
+          "points": 60
+        },
+        {
+          "text": "Jack Russell terrier",
+          "points": 60,
+          "aliases": [
+            "Jack Russell"
+          ]
+        },
+        {
+          "text": "Greyhound",
+          "points": 85
+        },
+        {
+          "text": "Whippet",
+          "points": 85
+        },
+        {
+          "text": "Shih Tzu",
+          "points": 85
+        },
+        {
+          "text": "Cocker spaniel",
+          "points": 85,
+          "aliases": [
+            "Cocker"
+          ]
+        },
+        {
+          "text": "Basset hound",
+          "points": 100
+        },
+        {
+          "text": "Newfoundland",
+          "points": 100
+        },
+        {
+          "text": "Great Dane",
+          "points": 100
+        },
+        {
+          "text": "Weimaraner",
+          "points": 100
+        },
+        {
+          "text": "Basenji",
+          "points": 100
+        },
+        {
+          "text": "Akita",
+          "points": 100
+        }
+      ],
+      "note": "Curated everyday answer list; other valid answers may not yet be included."
+    },
+    {
+      "id": "garden-birds",
+      "difficulty": "general",
+      "category": "Nature",
+      "text": "Name a UK garden bird from our familiar birds list.",
+      "answers": [
+        {
+          "text": "Robin",
+          "points": 10
+        },
+        {
+          "text": "Blackbird",
+          "points": 10
+        },
+        {
+          "text": "Sparrow",
+          "points": 10,
+          "aliases": [
+            "House sparrow"
+          ]
+        },
+        {
+          "text": "Pigeon",
+          "points": 10,
+          "aliases": [
+            "Wood pigeon"
+          ]
+        },
+        {
+          "text": "Magpie",
+          "points": 30
+        },
+        {
+          "text": "Blue tit",
+          "points": 30
+        },
+        {
+          "text": "Starling",
+          "points": 30
+        },
+        {
+          "text": "Crow",
+          "points": 30
+        },
+        {
+          "text": "Great tit",
+          "points": 60
+        },
+        {
+          "text": "Chaffinch",
+          "points": 60
+        },
+        {
+          "text": "Goldfinch",
+          "points": 60
+        },
+        {
+          "text": "Wren",
+          "points": 60
+        },
+        {
+          "text": "Dunnock",
+          "points": 100
+        },
+        {
+          "text": "Coal tit",
+          "points": 100
+        },
+        {
+          "text": "Long-tailed tit",
+          "points": 100
+        },
+        {
+          "text": "Bullfinch",
+          "points": 100
+        },
+        {
+          "text": "Nuthatch",
+          "points": 100
+        }
+      ],
+      "note": "Curated everyday answer list; other valid answers may not yet be included."
+    },
+    {
+      "id": "big-cats",
+      "difficulty": "general",
+      "category": "Nature",
+      "text": "Name one of the five living species in the genus Panthera — the big cats.",
+      "answers": [
+        {
+          "text": "Lion",
+          "points": 10
+        },
+        {
+          "text": "Tiger",
+          "points": 10
+        },
+        {
+          "text": "Leopard",
+          "points": 30
+        },
+        {
+          "text": "Jaguar",
+          "points": 60
+        },
+        {
+          "text": "Snow leopard",
+          "points": 100
+        }
+      ]
+    },
+    {
+      "id": "africa-big-five",
+      "difficulty": "general",
+      "category": "Nature",
+      "text": "Name one of Africa’s traditional safari “Big Five” animals.",
+      "answers": [
+        {
+          "text": "Lion",
+          "points": 10
+        },
+        {
+          "text": "Elephant",
+          "points": 10,
+          "aliases": [
+            "African elephant"
+          ]
+        },
+        {
+          "text": "Rhinoceros",
+          "points": 30,
+          "aliases": [
+            "Rhino",
+            "Black rhino"
+          ]
+        },
+        {
+          "text": "Leopard",
+          "points": 60
+        },
+        {
+          "text": "Buffalo",
+          "points": 100,
+          "aliases": [
+            "African buffalo",
+            "Cape buffalo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nordic",
+      "difficulty": "general",
+      "category": "Geography",
+      "text": "Name one of the five sovereign Nordic countries.",
+      "answers": [
+        {
+          "text": "Norway",
+          "points": 10
+        },
+        {
+          "text": "Sweden",
+          "points": 10
+        },
+        {
+          "text": "Denmark",
+          "points": 30
+        },
+        {
+          "text": "Finland",
+          "points": 60
+        },
+        {
+          "text": "Iceland",
+          "points": 100
+        }
+      ]
+    },
+    {
+      "id": "neighbours-france",
+      "difficulty": "general",
+      "category": "Geography",
+      "text": "Name a country sharing a land border with mainland metropolitan France.",
+      "answers": [
+        {
+          "text": "Spain",
+          "points": 10
+        },
+        {
+          "text": "Germany",
+          "points": 10
+        },
+        {
+          "text": "Italy",
+          "points": 10
+        },
+        {
+          "text": "Belgium",
+          "points": 30
+        },
+        {
+          "text": "Switzerland",
+          "points": 30
+        },
+        {
+          "text": "Luxembourg",
+          "points": 60
+        },
+        {
+          "text": "Monaco",
+          "points": 60
+        },
+        {
+          "text": "Andorra",
+          "points": 100
+        }
+      ]
+    }
+  ]
+}

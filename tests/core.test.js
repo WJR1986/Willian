@@ -1,0 +1,9 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {validateBank,lookup,challenge,draw,cleanBackup} from '../js/core.js';
+const bank=JSON.parse(readFileSync(new URL('../data/questions.json',import.meta.url)));
+test('bank valid; accents and aliases accepted; prototype names rejected',()=>{validateBank(bank);assert.equal(lookup(bank.questions[0],'  ANTIGUA & BARBUDA ').points,100);assert.equal(lookup(bank.questions.find(q=>q.id==='countries-s'),'São Tomé and Príncipe').points,100);assert.equal(lookup(bank.questions.find(q=>q.id==='pasta'),'lasagna').text,'Lasagne');assert.equal(lookup(bank.questions[0],'constructor'),undefined);});
+test('challenge reproducible regardless of name/case/outer spaces',()=>{assert.deepEqual(challenge(bank,' Friday-01 '),challenge(bank,'FRIDAY-01'));assert.equal(new Set(challenge(bank,'FRIDAY-01').map(q=>q.id)).size,7);assert.notDeepEqual(challenge(bank,'FRIDAY-01'),challenge(bank,'FRIDAY-02'));});
+test('deck covers bank before repeats; no duplicate within flights across cycles',()=>{let deck=[],all=[];for(let i=0;i<bank.questions.length/7;i++){const d=draw(bank,deck);deck=d.deck;all.push(...d.questions.map(q=>q.id));}assert.equal(new Set(all).size,bank.questions.length);assert.equal(deck.length,0);for(let i=0;i<100;i++){const d=draw(bank,deck);deck=d.deck;assert.equal(new Set(d.questions.map(q=>q.id)).size,7);}});
+test('backup rejects impossible stats and duplicate identities',()=>{const p={id:'p1',name:'Will',games:1,total:400,best:400,correct:5,deck:[]};const b={version:1,players:[p],selected:'p1'};assert.deepEqual(cleanBackup(b),b);assert.throws(()=>cleanBackup({...b,players:[{...p,total:900}]}));assert.throws(()=>cleanBackup({...b,players:[p,p]}));assert.throws(()=>cleanBackup({version:2,players:[]}));});
